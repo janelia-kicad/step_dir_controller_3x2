@@ -1,0 +1,369 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:step_dir_controller_3x2
+LIBS:components
+LIBS:step_dir_controller_3x2-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3550 2700 0    60   Input ~ 0
+STEP
+Text HLabel 3550 2800 0    60   Input ~ 0
+DIR
+Text HLabel 3550 2900 0    60   Input ~ 0
+ENABLE
+$Comp
+L 26LS31 U?
+U 0 1 58DB685B
+P 4050 2850
+F 0 "U?" H 4250 3450 60  0000 C CNN
+F 1 "26LS31" H 3800 3450 60  0000 C CNN
+F 2 "step_dir_controller_3x2:SOIC_16_0.154IN" H 4150 3350 60  0001 C CNN
+F 3 "" H 4050 2850 60  0001 C CNN
+F 4 "digikey" H 4350 3550 60  0001 C CNN "Vendor"
+F 5 "296-1010-1-ND" H 4450 3650 60  0001 C CNN "PartNumber"
+F 6 "IC QUAD DIFF LINE DRIVER 16-SOIC" H 4550 3750 60  0001 C CNN "Description"
+	0    4050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 0 1 58DB6987
+P 4050 3650
+F 0 "#PWR?" H 4050 3400 50  0001 C CNN
+F 1 "GND" H 4055 3477 50  0000 C CNN
+F 2 "" H 4050 3650 50  0001 C CNN
+F 3 "" H 4050 3650 50  0001 C CNN
+	0    4050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L VEE #PWR?
+U 0 1 58DB69BE
+P 4050 2050
+F 0 "#PWR?" H 4050 1900 50  0001 C CNN
+F 1 "VEE" H 4067 2223 50  0000 C CNN
+F 2 "" H 4050 2050 50  0001 C CNN
+F 3 "" H 4050 2050 50  0001 C CNN
+	0    4050 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2100 4050 2050
+Wire Wire Line
+	4050 3600 4050 3650
+NoConn ~ 3650 2550
+$Comp
+L GND #PWR?
+U 1 1 58DB69FD
+P 3600 3200
+F 0 "#PWR?" H 3600 2950 50  0001 C CNN
+F 1 "GND" H 3605 3027 50  0000 C CNN
+F 2 "" H 3600 3200 50  0001 C CNN
+F 3 "" H 3600 3200 50  0001 C CNN
+	1    3600 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3000 3600 3000
+Wire Wire Line
+	3600 3000 3600 3200
+Wire Wire Line
+	3650 3150 3600 3150
+Connection ~ 3600 3150
+Wire Wire Line
+	3550 2700 3650 2700
+Wire Wire Line
+	3550 2800 3650 2800
+Wire Wire Line
+	3550 2900 3650 2900
+Wire Wire Line
+	4450 2350 4550 2350
+Wire Wire Line
+	4450 2450 4550 2450
+Wire Wire Line
+	4450 2650 4550 2650
+Wire Wire Line
+	4450 2750 4550 2750
+Wire Wire Line
+	4450 2950 4550 2950
+Wire Wire Line
+	4450 3050 4550 3050
+NoConn ~ 4450 3250
+NoConn ~ 4450 3350
+Text Label 4550 2350 0    60   ~ 0
+STEP_+
+Text Label 4550 2450 0    60   ~ 0
+STEP_-
+Text Label 4550 2650 0    60   ~ 0
+DIR_+
+Text Label 4550 2750 0    60   ~ 0
+DIR_-
+Text Label 4550 2950 0    60   ~ 0
+ENABLE_+
+Text Label 4550 3050 0    60   ~ 0
+ENABLE_-
+$Comp
+L MAX6817 U?
+U 0 1 58DB7355
+P 7800 5150
+F 0 "U?" H 7800 5897 60  0000 C CNN
+F 1 "MAX6817" H 7800 5791 60  0000 C CNN
+F 2 "step_dir_controller_3x2:MAX6817" H 7950 4800 60  0001 C CNN
+F 3 "" H 7800 5150 60  0000 C CNN
+F 4 "digikey" H 8150 5000 60  0001 C CNN "Vendor"
+F 5 "MAX6817EUT+TCT-ND" H 8250 5100 60  0001 C CNN "PartNumber"
+F 6 "IC DEBOUNCER SWITCH DUAL SOT23-6" H 8350 5200 60  0001 C CNN "Description"
+	0    7800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.1uF C?
+U 0 1 58DB7474
+P 2750 2800
+F 0 "C?" H 2800 2900 40  0000 L CNN
+F 1 "0.1uF" H 2750 2800 30  0000 C CNN
+F 2 "step_dir_controller_3x2:SM1210" H 2788 2650 30  0001 C CNN
+F 3 "" H 2750 2800 60  0000 C CNN
+F 4 "digikey" H 2850 3000 60  0001 C CNN "Vendor"
+F 5 "478-3586-1-ND" H 2950 3100 60  0001 C CNN "PartNumber"
+F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 3050 3200 60  0001 C CNN "Description"
+	0    2750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VEE #PWR?
+U 1 1 58DB74BE
+P 2750 2550
+F 0 "#PWR?" H 2750 2400 50  0001 C CNN
+F 1 "VEE" H 2767 2723 50  0000 C CNN
+F 2 "" H 2750 2550 50  0001 C CNN
+F 3 "" H 2750 2550 50  0001 C CNN
+	1    2750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58DB74E7
+P 2750 3050
+F 0 "#PWR?" H 2750 2800 50  0001 C CNN
+F 1 "GND" H 2755 2877 50  0000 C CNN
+F 2 "" H 2750 3050 50  0001 C CNN
+F 3 "" H 2750 3050 50  0001 C CNN
+	1    2750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2600 2750 2550
+Wire Wire Line
+	2750 3050 2750 3000
+$Comp
+L 0.1uF C?
+U 1 1 58DB75FF
+P 6750 5000
+F 0 "C?" H 6800 5100 40  0000 L CNN
+F 1 "0.1uF" H 6750 5000 30  0000 C CNN
+F 2 "step_dir_controller_3x2:SM1210" H 6788 4850 30  0001 C CNN
+F 3 "" H 6750 5000 60  0000 C CNN
+F 4 "digikey" H 6850 5200 60  0001 C CNN "Vendor"
+F 5 "478-3586-1-ND" H 6950 5300 60  0001 C CNN "PartNumber"
+F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 7050 5400 60  0001 C CNN "Description"
+	1    6750 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L VEE #PWR?
+U 1 1 58DB7605
+P 6750 4750
+F 0 "#PWR?" H 6750 4600 50  0001 C CNN
+F 1 "VEE" H 6767 4923 50  0000 C CNN
+F 2 "" H 6750 4750 50  0001 C CNN
+F 3 "" H 6750 4750 50  0001 C CNN
+	1    6750 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58DB760B
+P 6750 5250
+F 0 "#PWR?" H 6750 5000 50  0001 C CNN
+F 1 "GND" H 6755 5077 50  0000 C CNN
+F 2 "" H 6750 5250 50  0001 C CNN
+F 3 "" H 6750 5250 50  0001 C CNN
+	1    6750 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4800 6750 4750
+Wire Wire Line
+	6750 5250 6750 5200
+Wire Wire Line
+	7400 4900 7300 4900
+Wire Wire Line
+	7400 5150 7300 5150
+Text Label 7300 4900 2    60   ~ 0
+REF
+Text Label 7300 5150 2    60   ~ 0
+REFR
+$Comp
+L GND #PWR?
+U 1 1 58DB77EA
+P 7800 5500
+F 0 "#PWR?" H 7800 5250 50  0001 C CNN
+F 1 "GND" H 7805 5327 50  0000 C CNN
+F 2 "" H 7800 5500 50  0001 C CNN
+F 3 "" H 7800 5500 50  0001 C CNN
+	1    7800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VEE #PWR?
+U 1 1 58DB7805
+P 8250 4600
+F 0 "#PWR?" H 8250 4450 50  0001 C CNN
+F 1 "VEE" H 8267 4773 50  0000 C CNN
+F 2 "" H 8250 4600 50  0001 C CNN
+F 3 "" H 8250 4600 50  0001 C CNN
+	1    8250 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4650 8250 4650
+Wire Wire Line
+	8250 4650 8250 4600
+Wire Wire Line
+	7800 5450 7800 5500
+Text HLabel 8300 4900 2    60   Output ~ 0
+REF
+Text HLabel 8300 5150 2    60   Output ~ 0
+REFR
+Wire Wire Line
+	8200 4900 8300 4900
+Wire Wire Line
+	8200 5150 8300 5150
+$Comp
+L HEADER_02X07_SMD P?
+U 0 1 58DB875D
+P 6850 2850
+F 0 "P?" H 6850 3365 50  0000 C CNN
+F 1 "HEADER_02X07_SMD" H 6850 3274 50  0000 C CNN
+F 2 "step_dir_controller_3x2:HEADER_02x07_SMD" H 6850 1650 60  0001 C CNN
+F 3 "" H 6850 1650 60  0000 C CNN
+F 4 "digikey" H 6950 3350 60  0001 C CNN "Vendor"
+F 5 "S9186-ND" H 7050 3450 60  0001 C CNN "PartNumber"
+F 6 "CONN HEADR 2.54MM 14POS GOLD SMD" H 7150 3550 60  0001 C CNN "Description"
+	0    6850 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2550 6500 2550
+Wire Wire Line
+	6600 2750 6500 2750
+Wire Wire Line
+	6600 2950 6500 2950
+Wire Wire Line
+	7100 2550 7200 2550
+Wire Wire Line
+	7100 2750 7200 2750
+Wire Wire Line
+	7100 2950 7200 2950
+Text Label 6500 2550 2    60   ~ 0
+STEP_+
+Text Label 7200 2550 0    60   ~ 0
+STEP_-
+Text Label 6500 2750 2    60   ~ 0
+DIR_+
+Text Label 6500 2950 2    60   ~ 0
+ENABLE_+
+Text Label 7200 2750 0    60   ~ 0
+DIR_-
+Text Label 7200 2950 0    60   ~ 0
+ENABLE_-
+$Comp
+L GND #PWR?
+U 1 1 58DB8A94
+P 6550 3200
+F 0 "#PWR?" H 6550 2950 50  0001 C CNN
+F 1 "GND" H 6555 3027 50  0000 C CNN
+F 2 "" H 6550 3200 50  0001 C CNN
+F 3 "" H 6550 3200 50  0001 C CNN
+	1    6550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58DB8AC2
+P 7150 3200
+F 0 "#PWR?" H 7150 2950 50  0001 C CNN
+F 1 "GND" H 7155 3027 50  0000 C CNN
+F 2 "" H 7150 3200 50  0001 C CNN
+F 3 "" H 7150 3200 50  0001 C CNN
+	1    7150 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2650 6550 2650
+Wire Wire Line
+	6550 2650 6550 3200
+Wire Wire Line
+	6600 2850 6550 2850
+Connection ~ 6550 2850
+Wire Wire Line
+	6600 3050 6550 3050
+Connection ~ 6550 3050
+Wire Wire Line
+	6600 3150 6550 3150
+Connection ~ 6550 3150
+Wire Wire Line
+	7100 2650 7150 2650
+Wire Wire Line
+	7150 2650 7150 3200
+Wire Wire Line
+	7100 2850 7150 2850
+Connection ~ 7150 2850
+Wire Wire Line
+	7100 3050 7150 3050
+Connection ~ 7150 3050
+Wire Wire Line
+	7100 3150 7150 3150
+Connection ~ 7150 3150
+$EndSCHEMATC

@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "step_dir_controller_3x2"
 Date ""
 Rev "1.0"
@@ -165,7 +165,7 @@ Wire Wire Line
 	4450 800  4450 900 
 Connection ~ 4450 900 
 $Sheet
-S 5750 1600 950  1050
+S 5750 1600 950  1100
 U 58DAAD90
 F0 "tmc429_0" 60
 F1 "tmc429.sch" 60
@@ -176,6 +176,9 @@ F5 "~CS" I L 5750 2150 60
 F6 "MISO" O R 6700 1750 60 
 F7 "~INT" O R 6700 1950 60 
 F8 "POSCOMP" O R 6700 2050 60 
+F9 "ENABLE_0" I L 5750 2350 60 
+F10 "ENABLE_1" I L 5750 2450 60 
+F11 "ENABLE_2" I L 5750 2550 60 
 $EndSheet
 Wire Wire Line
 	1400 2100 1300 2100
@@ -270,4 +273,16 @@ Wire Wire Line
 Wire Wire Line
 	4900 1050 4900 1100
 Connection ~ 4900 1100
+Wire Wire Line
+	5750 2350 5650 2350
+Text Label 5650 2350 2    60   ~ 0
+ENABLE_0
+Wire Wire Line
+	5750 2450 5650 2450
+Wire Wire Line
+	5750 2550 5650 2550
+Text Label 5650 2450 2    60   ~ 0
+ENABLE_1
+Text Label 5650 2550 2    60   ~ 0
+ENABLE_2
 $EndSCHEMATC
