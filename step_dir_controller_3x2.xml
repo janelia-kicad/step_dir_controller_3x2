@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/step_dir_controller_3x2/step_dir_controller_3x2.sch</source>
-    <date>Wed 29 Mar 2017 11:39:15 AM EDT</date>
+    <date>Wed 29 Mar 2017 01:31:33 PM EDT</date>
     <tool>Eeschema no-vcs-found-0f0cb64~58~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -180,18 +180,6 @@
       <sheetpath names="/tmc429_0/step_dir_0/" tstamps="/58DAAD90/58DB6271/"/>
       <tstamp>58DB75FF</tstamp>
     </comp>
-    <comp ref="P1">
-      <value>HEADER_02X07_SMD</value>
-      <footprint>step_dir_controller_3x2:HEADER_02x07_SMD</footprint>
-      <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">S9186-ND</field>
-        <field name="Description">CONN HEADR 2.54MM 14POS GOLD SMD</field>
-      </fields>
-      <libsource lib="step_dir_controller_3x2" part="HEADER_02X07_SMD"/>
-      <sheetpath names="/tmc429_0/step_dir_0/" tstamps="/58DAAD90/58DB6271/"/>
-      <tstamp>58DB875D</tstamp>
-    </comp>
     <comp ref="T1">
       <value>TERM_BLK_HDR_4POS_VERT_0.138IN</value>
       <footprint>step_dir_controller_3x2:TERM_BLK_HDR_4POS_VERT_0.138IN</footprint>
@@ -203,6 +191,18 @@
       <libsource lib="step_dir_controller_3x2" part="TERM_BLK_HDR_4POS_VERT_0.138IN"/>
       <sheetpath names="/tmc429_0/step_dir_0/" tstamps="/58DAAD90/58DB6271/"/>
       <tstamp>58DBDAC6</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>HEADER_02X05_SMD</value>
+      <footprint>step_dir_controller_3x2:HEADER_02x05_SMD</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">S9185-ND</field>
+        <field name="Description">CONN_HEADR_2.54MM_10POS_GOLD_SMD</field>
+      </fields>
+      <libsource lib="step_dir_controller_3x2" part="HEADER_02X05_SMD"/>
+      <sheetpath names="/tmc429_0/step_dir_0/" tstamps="/58DAAD90/58DB6271/"/>
+      <tstamp>58DC6361</tstamp>
     </comp>
     <comp ref="U4">
       <value>26LS31</value>
@@ -252,18 +252,6 @@
       <sheetpath names="/tmc429_0/step_dir_1/" tstamps="/58DAAD90/58DBE3E6/"/>
       <tstamp>58DB75FF</tstamp>
     </comp>
-    <comp ref="P2">
-      <value>HEADER_02X07_SMD</value>
-      <footprint>step_dir_controller_3x2:HEADER_02x07_SMD</footprint>
-      <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">S9186-ND</field>
-        <field name="Description">CONN HEADR 2.54MM 14POS GOLD SMD</field>
-      </fields>
-      <libsource lib="step_dir_controller_3x2" part="HEADER_02X07_SMD"/>
-      <sheetpath names="/tmc429_0/step_dir_1/" tstamps="/58DAAD90/58DBE3E6/"/>
-      <tstamp>58DB875D</tstamp>
-    </comp>
     <comp ref="T2">
       <value>TERM_BLK_HDR_4POS_VERT_0.138IN</value>
       <footprint>step_dir_controller_3x2:TERM_BLK_HDR_4POS_VERT_0.138IN</footprint>
@@ -275,6 +263,18 @@
       <libsource lib="step_dir_controller_3x2" part="TERM_BLK_HDR_4POS_VERT_0.138IN"/>
       <sheetpath names="/tmc429_0/step_dir_1/" tstamps="/58DAAD90/58DBE3E6/"/>
       <tstamp>58DBDAC6</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>HEADER_02X05_SMD</value>
+      <footprint>step_dir_controller_3x2:HEADER_02x05_SMD</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">S9185-ND</field>
+        <field name="Description">CONN_HEADR_2.54MM_10POS_GOLD_SMD</field>
+      </fields>
+      <libsource lib="step_dir_controller_3x2" part="HEADER_02X05_SMD"/>
+      <sheetpath names="/tmc429_0/step_dir_1/" tstamps="/58DAAD90/58DBE3E6/"/>
+      <tstamp>58DC6361</tstamp>
     </comp>
     <comp ref="U6">
       <value>26LS31</value>
@@ -324,18 +324,6 @@
       <sheetpath names="/tmc429_0/step_dir_2/" tstamps="/58DAAD90/58DBF0EC/"/>
       <tstamp>58DB75FF</tstamp>
     </comp>
-    <comp ref="P3">
-      <value>HEADER_02X07_SMD</value>
-      <footprint>step_dir_controller_3x2:HEADER_02x07_SMD</footprint>
-      <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">S9186-ND</field>
-        <field name="Description">CONN HEADR 2.54MM 14POS GOLD SMD</field>
-      </fields>
-      <libsource lib="step_dir_controller_3x2" part="HEADER_02X07_SMD"/>
-      <sheetpath names="/tmc429_0/step_dir_2/" tstamps="/58DAAD90/58DBF0EC/"/>
-      <tstamp>58DB875D</tstamp>
-    </comp>
     <comp ref="T3">
       <value>TERM_BLK_HDR_4POS_VERT_0.138IN</value>
       <footprint>step_dir_controller_3x2:TERM_BLK_HDR_4POS_VERT_0.138IN</footprint>
@@ -347,6 +335,18 @@
       <libsource lib="step_dir_controller_3x2" part="TERM_BLK_HDR_4POS_VERT_0.138IN"/>
       <sheetpath names="/tmc429_0/step_dir_2/" tstamps="/58DAAD90/58DBF0EC/"/>
       <tstamp>58DBDAC6</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>HEADER_02X05_SMD</value>
+      <footprint>step_dir_controller_3x2:HEADER_02x05_SMD</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">S9185-ND</field>
+        <field name="Description">CONN_HEADR_2.54MM_10POS_GOLD_SMD</field>
+      </fields>
+      <libsource lib="step_dir_controller_3x2" part="HEADER_02X05_SMD"/>
+      <sheetpath names="/tmc429_0/step_dir_2/" tstamps="/58DAAD90/58DBF0EC/"/>
+      <tstamp>58DC6361</tstamp>
     </comp>
   </components>
   <libparts>
@@ -413,20 +413,20 @@
         <pin num="4" name="Vcc" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="step_dir_controller_3x2" part="HEADER_02X07_SMD">
+    <libpart lib="step_dir_controller_3x2" part="HEADER_02X05_SMD">
       <footprints>
-        <fp>Pin_Header_Straight_2X07</fp>
-        <fp>Pin_Header_Angled_2X07</fp>
-        <fp>Socket_Strip_Straight_2X07</fp>
-        <fp>Socket_Strip_Angled_2X07</fp>
+        <fp>Pin_Header_Straight_2X05</fp>
+        <fp>Pin_Header_Angled_2X05</fp>
+        <fp>Socket_Strip_Straight_2X05</fp>
+        <fp>Socket_Strip_Angled_2X05</fp>
       </footprints>
       <fields>
         <field name="Reference">P</field>
-        <field name="Value">HEADER_02X07_SMD</field>
-        <field name="Footprint">step_dir_controller_3x2:HEADER_02x07_SMD</field>
+        <field name="Value">HEADER_02X05_SMD</field>
+        <field name="Footprint">step_dir_controller_3x2:HEADER_02x05_SMD</field>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">S9186-ND</field>
-        <field name="Description">CONN HEADR 2.54MM 14POS GOLD SMD</field>
+        <field name="PartNumber">S9185-ND</field>
+        <field name="Description">CONN_HEADR_2.54MM_10POS_GOLD_SMD</field>
       </fields>
       <pins>
         <pin num="1" name="P1" type="passive"/>
@@ -439,10 +439,6 @@
         <pin num="8" name="P8" type="passive"/>
         <pin num="9" name="P9" type="passive"/>
         <pin num="10" name="P10" type="passive"/>
-        <pin num="11" name="P11" type="passive"/>
-        <pin num="12" name="P12" type="passive"/>
-        <pin num="13" name="P13" type="passive"/>
-        <pin num="14" name="P14" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="step_dir_controller_3x2" part="MAX6817">
@@ -578,16 +574,16 @@
   </libraries>
   <nets>
     <net code="1" name="/ENABLE_2">
-      <node ref="U6" pin="9"/>
       <node ref="MDB1" pin="4"/>
+      <node ref="U6" pin="9"/>
     </net>
     <net code="2" name="/CS">
-      <node ref="MDB1" pin="10"/>
       <node ref="U1" pin="7"/>
+      <node ref="MDB1" pin="10"/>
     </net>
     <net code="3" name="/INT">
-      <node ref="MDB1" pin="5"/>
       <node ref="U1" pin="14"/>
+      <node ref="MDB1" pin="5"/>
     </net>
     <net code="4" name="/POSCOMP">
       <node ref="MDB1" pin="6"/>
@@ -602,95 +598,83 @@
       <node ref="U4" pin="9"/>
     </net>
     <net code="7" name="/MOSI">
-      <node ref="MDB1" pin="11"/>
       <node ref="U1" pin="10"/>
+      <node ref="MDB1" pin="11"/>
     </net>
     <net code="8" name="/ENABLE_0">
       <node ref="MDB1" pin="2"/>
       <node ref="U2" pin="9"/>
     </net>
     <net code="9" name="/SCK">
-      <node ref="U1" pin="8"/>
       <node ref="MDB1" pin="13"/>
+      <node ref="U1" pin="8"/>
     </net>
     <net code="10" name="/CLK">
-      <node ref="U1" pin="5"/>
       <node ref="CLK1" pin="3"/>
+      <node ref="U1" pin="5"/>
     </net>
     <net code="11" name="+3V3">
-      <node ref="U7" pin="5"/>
-      <node ref="U1" pin="3"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U1" pin="22"/>
       <node ref="U1" pin="21"/>
-      <node ref="C4" pin="1"/>
-      <node ref="U3" pin="5"/>
-      <node ref="U5" pin="5"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="CLK1" pin="1"/>
-      <node ref="C1" pin="1"/>
       <node ref="CLK1" pin="4"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U1" pin="22"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="CLK1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="3"/>
       <node ref="MDB1" pin="3V3"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C8" pin="1"/>
     </net>
     <net code="12" name="GND">
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="T1" pin="4"/>
+      <node ref="T1" pin="2"/>
+      <node ref="P1" pin="8"/>
+      <node ref="U2" pin="12"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P1" pin="3"/>
+      <node ref="P3" pin="7"/>
+      <node ref="T3" pin="4"/>
+      <node ref="T3" pin="2"/>
+      <node ref="P3" pin="8"/>
+      <node ref="P3" pin="4"/>
+      <node ref="P3" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U6" pin="12"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U6" pin="15"/>
       <node ref="T2" pin="2"/>
+      <node ref="T2" pin="4"/>
       <node ref="P2" pin="8"/>
       <node ref="P2" pin="7"/>
       <node ref="P2" pin="4"/>
       <node ref="P2" pin="3"/>
-      <node ref="P2" pin="14"/>
-      <node ref="P2" pin="13"/>
-      <node ref="T2" pin="4"/>
-      <node ref="P2" pin="11"/>
-      <node ref="CLK1" pin="2"/>
-      <node ref="U3" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="P2" pin="12"/>
-      <node ref="U2" pin="12"/>
-      <node ref="U2" pin="8"/>
-      <node ref="U2" pin="15"/>
-      <node ref="U6" pin="8"/>
-      <node ref="U7" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="U6" pin="12"/>
-      <node ref="U6" pin="15"/>
       <node ref="C6" pin="2"/>
       <node ref="C5" pin="2"/>
+      <node ref="U5" pin="2"/>
       <node ref="U4" pin="12"/>
       <node ref="U4" pin="8"/>
       <node ref="U4" pin="15"/>
-      <node ref="P3" pin="3"/>
-      <node ref="T3" pin="4"/>
-      <node ref="T3" pin="2"/>
-      <node ref="P3" pin="8"/>
-      <node ref="P3" pin="7"/>
-      <node ref="P3" pin="4"/>
-      <node ref="P3" pin="14"/>
-      <node ref="P3" pin="13"/>
-      <node ref="P3" pin="12"/>
-      <node ref="P3" pin="11"/>
-      <node ref="U5" pin="2"/>
-      <node ref="P1" pin="14"/>
-      <node ref="U1" pin="PAD"/>
-      <node ref="U1" pin="23"/>
-      <node ref="U1" pin="25"/>
-      <node ref="P1" pin="11"/>
-      <node ref="P1" pin="12"/>
-      <node ref="P1" pin="13"/>
-      <node ref="C2" pin="2"/>
       <node ref="U1" pin="6"/>
+      <node ref="CLK1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="PAD"/>
+      <node ref="U1" pin="25"/>
+      <node ref="U1" pin="23"/>
       <node ref="U1" pin="4"/>
+      <node ref="C2" pin="2"/>
       <node ref="MDB1" pin="GND"/>
-      <node ref="P1" pin="7"/>
-      <node ref="P1" pin="4"/>
-      <node ref="P1" pin="8"/>
-      <node ref="P1" pin="3"/>
-      <node ref="T1" pin="2"/>
-      <node ref="T1" pin="4"/>
     </net>
     <net code="13" name="Net-(MDB1-Pad17)">
       <node ref="MDB1" pin="17"/>
@@ -754,12 +738,12 @@
     </net>
     <net code="33" name="VEE">
       <node ref="U4" pin="16"/>
-      <node ref="C7" pin="1"/>
       <node ref="MDB1" pin="VEE"/>
-      <node ref="U6" pin="16"/>
-      <node ref="U2" pin="16"/>
-      <node ref="C3" pin="1"/>
       <node ref="C5" pin="1"/>
+      <node ref="U2" pin="16"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U6" pin="16"/>
     </net>
     <net code="34" name="/tmc429_0/STEP_0">
       <node ref="U1" pin="15"/>
@@ -770,38 +754,38 @@
       <node ref="U1" pin="17"/>
     </net>
     <net code="36" name="/tmc429_0/REF_0">
-      <node ref="U1" pin="31"/>
-      <node ref="T1" pin="1"/>
-      <node ref="U3" pin="1"/>
       <node ref="U3" pin="6"/>
+      <node ref="U3" pin="1"/>
+      <node ref="T1" pin="1"/>
+      <node ref="U1" pin="31"/>
     </net>
     <net code="37" name="/tmc429_0/REFR_0">
       <node ref="U3" pin="3"/>
-      <node ref="U3" pin="4"/>
       <node ref="U1" pin="28"/>
       <node ref="T1" pin="3"/>
+      <node ref="U3" pin="4"/>
     </net>
     <net code="38" name="/tmc429_0/STEP_2">
       <node ref="U1" pin="19"/>
       <node ref="U6" pin="1"/>
     </net>
     <net code="39" name="/tmc429_0/STEP_1">
-      <node ref="U4" pin="1"/>
       <node ref="U1" pin="18"/>
+      <node ref="U4" pin="1"/>
     </net>
     <net code="40" name="/tmc429_0/DIR_1">
-      <node ref="U4" pin="7"/>
       <node ref="U1" pin="27"/>
+      <node ref="U4" pin="7"/>
     </net>
     <net code="41" name="/tmc429_0/DIR_2">
       <node ref="U6" pin="7"/>
       <node ref="U1" pin="20"/>
     </net>
     <net code="42" name="/tmc429_0/REF_2">
-      <node ref="T3" pin="1"/>
-      <node ref="U7" pin="6"/>
-      <node ref="U7" pin="1"/>
       <node ref="U1" pin="2"/>
+      <node ref="U7" pin="6"/>
+      <node ref="T3" pin="1"/>
+      <node ref="U7" pin="1"/>
     </net>
     <net code="43" name="/tmc429_0/REFR_2">
       <node ref="T3" pin="3"/>
@@ -810,115 +794,115 @@
       <node ref="U1" pin="29"/>
     </net>
     <net code="44" name="/tmc429_0/REFR_1">
-      <node ref="U5" pin="4"/>
+      <node ref="U5" pin="3"/>
       <node ref="T2" pin="3"/>
       <node ref="U1" pin="13"/>
-      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="4"/>
     </net>
     <net code="45" name="/tmc429_0/REF_1">
-      <node ref="T2" pin="1"/>
-      <node ref="U1" pin="1"/>
       <node ref="U5" pin="6"/>
       <node ref="U5" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="T2" pin="1"/>
     </net>
-    <net code="46" name="/tmc429_0/step_dir_0/STEP_+">
-      <node ref="P1" pin="1"/>
-      <node ref="U2" pin="2"/>
-    </net>
-    <net code="47" name="/tmc429_0/step_dir_0/DIR_+">
-      <node ref="P1" pin="5"/>
-      <node ref="U2" pin="6"/>
-    </net>
-    <net code="48" name="/tmc429_0/step_dir_0/ENABLE_+">
-      <node ref="U2" pin="10"/>
-      <node ref="P1" pin="9"/>
-    </net>
-    <net code="49" name="/tmc429_0/step_dir_0/STEP_-">
+    <net code="46" name="/tmc429_0/step_dir_0/STEP_-">
       <node ref="P1" pin="2"/>
       <node ref="U2" pin="3"/>
     </net>
-    <net code="50" name="/tmc429_0/step_dir_0/DIR_-">
+    <net code="47" name="/tmc429_0/step_dir_0/DIR_-">
       <node ref="P1" pin="6"/>
       <node ref="U2" pin="5"/>
     </net>
-    <net code="51" name="/tmc429_0/step_dir_0/ENABLE_-">
-      <node ref="P1" pin="10"/>
+    <net code="48" name="/tmc429_0/step_dir_0/ENABLE_-">
       <node ref="U2" pin="11"/>
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="49" name="/tmc429_0/step_dir_0/STEP_+">
+      <node ref="U2" pin="2"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="50" name="/tmc429_0/step_dir_0/DIR_+">
+      <node ref="P1" pin="5"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="51" name="/tmc429_0/step_dir_0/ENABLE_+">
+      <node ref="U2" pin="10"/>
+      <node ref="P1" pin="9"/>
     </net>
     <net code="52" name="Net-(U2-Pad4)">
       <node ref="U2" pin="4"/>
     </net>
-    <net code="53" name="Net-(U2-Pad14)">
-      <node ref="U2" pin="14"/>
-    </net>
-    <net code="54" name="Net-(U2-Pad13)">
+    <net code="53" name="Net-(U2-Pad13)">
       <node ref="U2" pin="13"/>
     </net>
-    <net code="55" name="/tmc429_0/step_dir_1/STEP_+">
-      <node ref="U4" pin="2"/>
-      <node ref="P2" pin="1"/>
+    <net code="54" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
     </net>
-    <net code="56" name="/tmc429_0/step_dir_1/DIR_+">
-      <node ref="U4" pin="6"/>
-      <node ref="P2" pin="5"/>
-    </net>
-    <net code="57" name="/tmc429_0/step_dir_1/ENABLE_+">
-      <node ref="P2" pin="9"/>
+    <net code="55" name="/tmc429_0/step_dir_1/ENABLE_+">
       <node ref="U4" pin="10"/>
+      <node ref="P2" pin="9"/>
     </net>
-    <net code="58" name="/tmc429_0/step_dir_1/STEP_-">
+    <net code="56" name="/tmc429_0/step_dir_1/STEP_-">
       <node ref="P2" pin="2"/>
       <node ref="U4" pin="3"/>
     </net>
-    <net code="59" name="/tmc429_0/step_dir_1/DIR_-">
+    <net code="57" name="/tmc429_0/step_dir_1/DIR_-">
       <node ref="P2" pin="6"/>
       <node ref="U4" pin="5"/>
     </net>
-    <net code="60" name="/tmc429_0/step_dir_1/ENABLE_-">
-      <node ref="P2" pin="10"/>
+    <net code="58" name="/tmc429_0/step_dir_1/ENABLE_-">
       <node ref="U4" pin="11"/>
+      <node ref="P2" pin="10"/>
     </net>
-    <net code="61" name="Net-(U4-Pad4)">
-      <node ref="U4" pin="4"/>
+    <net code="59" name="/tmc429_0/step_dir_1/STEP_+">
+      <node ref="U4" pin="2"/>
+      <node ref="P2" pin="1"/>
     </net>
-    <net code="62" name="Net-(U4-Pad14)">
+    <net code="60" name="/tmc429_0/step_dir_1/DIR_+">
+      <node ref="U4" pin="6"/>
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="61" name="Net-(U4-Pad14)">
       <node ref="U4" pin="14"/>
     </net>
-    <net code="63" name="Net-(U4-Pad13)">
+    <net code="62" name="Net-(U4-Pad13)">
       <node ref="U4" pin="13"/>
     </net>
-    <net code="64" name="/tmc429_0/step_dir_2/ENABLE_-">
-      <node ref="P3" pin="10"/>
-      <node ref="U6" pin="11"/>
+    <net code="63" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
     </net>
-    <net code="65" name="/tmc429_0/step_dir_2/STEP_+">
-      <node ref="U6" pin="2"/>
-      <node ref="P3" pin="1"/>
-    </net>
-    <net code="66" name="/tmc429_0/step_dir_2/DIR_+">
-      <node ref="U6" pin="6"/>
-      <node ref="P3" pin="5"/>
-    </net>
-    <net code="67" name="/tmc429_0/step_dir_2/ENABLE_+">
+    <net code="64" name="/tmc429_0/step_dir_2/ENABLE_+">
       <node ref="P3" pin="9"/>
       <node ref="U6" pin="10"/>
     </net>
-    <net code="68" name="/tmc429_0/step_dir_2/STEP_-">
-      <node ref="P3" pin="2"/>
+    <net code="65" name="/tmc429_0/step_dir_2/STEP_-">
       <node ref="U6" pin="3"/>
+      <node ref="P3" pin="2"/>
     </net>
-    <net code="69" name="/tmc429_0/step_dir_2/DIR_-">
+    <net code="66" name="/tmc429_0/step_dir_2/DIR_-">
       <node ref="P3" pin="6"/>
       <node ref="U6" pin="5"/>
+    </net>
+    <net code="67" name="/tmc429_0/step_dir_2/ENABLE_-">
+      <node ref="P3" pin="10"/>
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="68" name="/tmc429_0/step_dir_2/STEP_+">
+      <node ref="P3" pin="1"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="69" name="/tmc429_0/step_dir_2/DIR_+">
+      <node ref="P3" pin="5"/>
+      <node ref="U6" pin="6"/>
     </net>
     <net code="70" name="Net-(U6-Pad4)">
       <node ref="U6" pin="4"/>
     </net>
-    <net code="71" name="Net-(U6-Pad13)">
-      <node ref="U6" pin="13"/>
-    </net>
-    <net code="72" name="Net-(U6-Pad14)">
+    <net code="71" name="Net-(U6-Pad14)">
       <node ref="U6" pin="14"/>
+    </net>
+    <net code="72" name="Net-(U6-Pad13)">
+      <node ref="U6" pin="13"/>
     </net>
   </nets>
 </export>
