@@ -89,8 +89,8 @@
       <footprint>step_dir_controller_3x2:SM1210</footprint>
       <fields>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">478-3586-1-ND</field>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
       </fields>
       <libsource lib="step_dir_controller_3x2" part="0.1uF"/>
       <sheetpath names="/" tstamps="/"/>
@@ -125,8 +125,8 @@
       <footprint>step_dir_controller_3x2:SM1210</footprint>
       <fields>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">478-3586-1-ND</field>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
       </fields>
       <libsource lib="step_dir_controller_3x2" part="0.1uF"/>
       <sheetpath names="/tmc429_0/" tstamps="/58DAAD90/"/>
@@ -161,8 +161,8 @@
       <footprint>step_dir_controller_3x2:SM1210</footprint>
       <fields>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">478-3586-1-ND</field>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
       </fields>
       <libsource lib="step_dir_controller_3x2" part="0.1uF"/>
       <sheetpath names="/tmc429_0/step_dir_0/" tstamps="/58DAAD90/58DB6271/"/>
@@ -173,8 +173,8 @@
       <footprint>step_dir_controller_3x2:SM1210</footprint>
       <fields>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">478-3586-1-ND</field>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
       </fields>
       <libsource lib="step_dir_controller_3x2" part="0.1uF"/>
       <sheetpath names="/tmc429_0/step_dir_0/" tstamps="/58DAAD90/58DB6271/"/>
@@ -233,8 +233,8 @@
       <footprint>step_dir_controller_3x2:SM1210</footprint>
       <fields>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">478-3586-1-ND</field>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
       </fields>
       <libsource lib="step_dir_controller_3x2" part="0.1uF"/>
       <sheetpath names="/tmc429_0/step_dir_1/" tstamps="/58DAAD90/58DBE3E6/"/>
@@ -245,8 +245,8 @@
       <footprint>step_dir_controller_3x2:SM1210</footprint>
       <fields>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">478-3586-1-ND</field>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
       </fields>
       <libsource lib="step_dir_controller_3x2" part="0.1uF"/>
       <sheetpath names="/tmc429_0/step_dir_1/" tstamps="/58DAAD90/58DBE3E6/"/>
@@ -305,8 +305,8 @@
       <footprint>step_dir_controller_3x2:SM1210</footprint>
       <fields>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">478-3586-1-ND</field>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
       </fields>
       <libsource lib="step_dir_controller_3x2" part="0.1uF"/>
       <sheetpath names="/tmc429_0/step_dir_2/" tstamps="/58DAAD90/58DBF0EC/"/>
@@ -317,8 +317,8 @@
       <footprint>step_dir_controller_3x2:SM1210</footprint>
       <fields>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">478-3586-1-ND</field>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
       </fields>
       <libsource lib="step_dir_controller_3x2" part="0.1uF"/>
       <sheetpath names="/tmc429_0/step_dir_2/" tstamps="/58DAAD90/58DBF0EC/"/>
@@ -361,8 +361,8 @@
         <field name="Value">0.1uF</field>
         <field name="Footprint">step_dir_controller_3x2:SM1210</field>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">478-3586-1-ND</field>
-        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
