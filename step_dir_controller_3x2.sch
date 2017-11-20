@@ -1,36 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:step_dir_controller_3x2
-LIBS:components
-LIBS:step_dir_controller_3x2-cache
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -58,7 +26,7 @@ F 5 "S1011E-16-ND" H 600 1250 60  0001 C CNN "PartNumber"
 F 6 "16 Position Header Through Hole Male Pins" H 600 1350 60  0001 C CNN "Description"
 F 7 "2" H 1900 1250 60  0001 C CNN "PartCount"
 	1    2650 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L VDD #PWR01
@@ -68,8 +36,8 @@ F 0 "#PWR01" H 100 -400 50  0001 C CNN
 F 1 "VDD" H 1367 923 50  0000 C CNN
 F 2 "" H 100 -250 50  0001 C CNN
 F 3 "" H 100 -250 50  0001 C CNN
-	1    1350 750
-	1    0    0    -1
+	1    1350 750 
+	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG02
@@ -79,16 +47,16 @@ F 0 "#FLG02" H -150 -175 50  0001 C CNN
 F 1 "PWR_FLAG" H 1100 924 50  0000 C CNN
 F 2 "" H -150 -250 50  0001 C CNN
 F 3 "" H -150 -250 50  0001 C CNN
-	1    1100 750
-	1    0    0    -1
+	1    1100 750 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 750  1100 800
+	1100 750  1100 800 
 Wire Wire Line
-	1100 800  1400 800
+	1100 800  1400 800 
 Wire Wire Line
-	1350 750  1350 800
-Connection ~ 1350 800
+	1350 750  1350 800 
+Connection ~ 1350 800 
 $Comp
 L GND #PWR03
 U 1 1 589B67FE
@@ -97,8 +65,8 @@ F 0 "#PWR03" H -500 -650 50  0001 C CNN
 F 1 "GND" H 705 777 50  0000 C CNN
 F 2 "" H -500 -400 50  0001 C CNN
 F 3 "" H -500 -400 50  0001 C CNN
-	1    700  950
-	1    0    0    -1
+	1    700  950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG04
@@ -108,21 +76,21 @@ F 0 "#FLG04" H -550 -175 50  0001 C CNN
 F 1 "PWR_FLAG" H 700 924 50  0000 C CNN
 F 2 "" H -550 -250 50  0001 C CNN
 F 3 "" H -550 -250 50  0001 C CNN
-	1    700  750
-	1    0    0    -1
+	1    700  750 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	700  750  700  950
+	700  750  700  950 
 Wire Wire Line
-	700  900  1400 900
-Connection ~ 700  900
+	700  900  1400 900 
+Connection ~ 700  900 
 NoConn ~ 1400 1000
 NoConn ~ 1400 1100
 NoConn ~ 1400 1700
 NoConn ~ 1400 1800
 NoConn ~ 1400 1900
 NoConn ~ 1400 2300
-NoConn ~ 3900 800
+NoConn ~ 3900 800 
 NoConn ~ 3900 1000
 NoConn ~ 3900 1200
 NoConn ~ 3900 1300
@@ -143,8 +111,8 @@ F 0 "#PWR05" H 200 -50 50  0001 C CNN
 F 1 "VEE" H 4467 973 50  0000 C CNN
 F 2 "" H 200 100 50  0001 C CNN
 F 3 "" H 200 100 50  0001 C CNN
-	1    4450 800
-	1    0    0    -1
+	1    4450 800 
+	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG06
@@ -154,31 +122,31 @@ F 0 "#FLG06" H 3500 -125 50  0001 C CNN
 F 1 "PWR_FLAG" H 4750 974 50  0000 C CNN
 F 2 "" H 3500 -200 50  0001 C CNN
 F 3 "" H 3500 -200 50  0001 C CNN
-	1    4750 800
-	1    0    0    -1
+	1    4750 800 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 900  4750 800
+	4750 900  4750 800 
 Wire Wire Line
-	3900 900  4750 900
+	3900 900  4750 900 
 Wire Wire Line
-	4450 800  4450 900
-Connection ~ 4450 900
+	4450 800  4450 900 
+Connection ~ 4450 900 
 $Sheet
 S 5750 1600 950  1100
 U 58DAAD90
 F0 "tmc429_0" 60
 F1 "tmc429.sch" 60
-F2 "CLK" I L 5750 1750 60
-F3 "SCK" I L 5750 1950 60
-F4 "MOSI" I L 5750 2050 60
-F5 "~CS" I L 5750 2150 60
-F6 "MISO" O R 6700 1750 60
-F7 "~INT" O R 6700 1950 60
-F8 "POSCOMP" O R 6700 2050 60
-F9 "ENABLE_0" I L 5750 2350 60
-F10 "ENABLE_1" I L 5750 2450 60
-F11 "ENABLE_2" I L 5750 2550 60
+F2 "CLK" I L 5750 1750 60 
+F3 "SCK" I L 5750 1950 60 
+F4 "MOSI" I L 5750 2050 60 
+F5 "~CS" I L 5750 2150 60 
+F6 "MISO" O R 6700 1750 60 
+F7 "~INT" O R 6700 1950 60 
+F8 "POSCOMP" O R 6700 2050 60 
+F9 "ENABLE_0" I L 5750 2350 60 
+F10 "ENABLE_1" I L 5750 2450 60 
+F11 "ENABLE_2" I L 5750 2550 60 
 $EndSheet
 Wire Wire Line
 	1400 2100 1300 2100
@@ -253,7 +221,7 @@ F 1 "+3V3" H 4915 1223 50  0000 C CNN
 F 2 "" H 4900 1050 50  0001 C CNN
 F 3 "" H 4900 1050 50  0001 C CNN
 	1    4900 1050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG08
@@ -263,8 +231,8 @@ F 0 "#FLG08" H 3850 25  50  0001 C CNN
 F 1 "PWR_FLAG" H 5100 1124 50  0000 C CNN
 F 2 "" H 3850 -50 50  0001 C CNN
 F 3 "" H 3850 -50 50  0001 C CNN
-	1    5100 950
-	1    0    0    -1
+	1    5100 950 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5100 950  5100 1100
@@ -297,7 +265,7 @@ F 4 "digikey" H 2150 3800 60  0001 C CNN "Vendor"
 F 5 "399-13229-1-ND" H 2250 3900 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 0.1UF 100V X7R 1210" H 2350 4000 60  0001 C CNN "Description"
 	1    2050 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L CLK_32MHZ CLK1
@@ -311,7 +279,7 @@ F 4 "digikey" H 3350 4000 60  0001 C CNN "Vendor"
 F 5 "CTX277LVCT-ND" H 3450 4100 60  0001 C CNN "PartNumber"
 F 6 "OSC XO 32.000MHZ HCMOS TTL SMD" H 3550 4200 60  0001 C CNN "Description"
 	1    3000 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +3V3 #PWR09
@@ -322,7 +290,7 @@ F 1 "+3V3" H 3015 3373 50  0000 C CNN
 F 2 "" H 3000 3200 50  0001 C CNN
 F 3 "" H 3000 3200 50  0001 C CNN
 	1    3000 3200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +3V3 #PWR010
@@ -333,7 +301,7 @@ F 1 "+3V3" H 2065 3523 50  0000 C CNN
 F 2 "" H 2050 3350 50  0001 C CNN
 F 3 "" H 2050 3350 50  0001 C CNN
 	1    2050 3350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR011
@@ -344,7 +312,7 @@ F 1 "GND" H 2055 3677 50  0000 C CNN
 F 2 "" H 850 2500 50  0001 C CNN
 F 3 "" H 850 2500 50  0001 C CNN
 	1    2050 3850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR012
@@ -355,7 +323,7 @@ F 1 "GND" H 3005 3827 50  0000 C CNN
 F 2 "" H 1800 2650 50  0001 C CNN
 F 3 "" H 1800 2650 50  0001 C CNN
 	1    3000 4000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2050 3400 2050 3350
@@ -374,7 +342,7 @@ F 1 "+3V3" H 2615 3723 50  0000 C CNN
 F 2 "" H 2600 3550 50  0001 C CNN
 F 3 "" H 2600 3550 50  0001 C CNN
 	1    2600 3550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2600 3550 2600 3600
