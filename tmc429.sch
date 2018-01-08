@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TMC429 U1
+L step_dir_controller_3x2:TMC429 U1
 U 1 1 58DAADA9
 P 2200 2650
 F 0 "U1" H 2550 3600 60  0000 C CNN
@@ -56,7 +56,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 3050 1500 3050
 $Comp
-L +3V3 #PWR014
+L power:+3V3 #PWR014
 U 1 1 58DAE642
 P 2200 1450
 F 0 "#PWR014" H 2200 1300 50  0001 C CNN
@@ -76,7 +76,7 @@ Wire Wire Line
 	2200 1450 2200 1550
 Connection ~ 2200 1500
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 58DAE6A2
 P 2200 3850
 F 0 "#PWR015" H 2200 3600 50  0001 C CNN
@@ -102,7 +102,7 @@ Wire Wire Line
 	2300 3750 2300 3800
 Connection ~ 2300 3800
 $Comp
-L 0.1uF C2
+L step_dir_controller_3x2:0.1uF C2
 U 1 1 58DAE7A2
 P 1300 1300
 F 0 "C2" H 1300 1400 40  0000 L CNN
@@ -116,7 +116,7 @@ F 6 "CAP CER 0.1UF 100V X7R 1210" H 1600 1700 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR016
+L power:+3V3 #PWR016
 U 1 1 58DAE83F
 P 1300 1050
 F 0 "#PWR016" H 1300 900 50  0001 C CNN
@@ -127,7 +127,7 @@ F 3 "" H 1300 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 58DAE85E
 P 1300 1550
 F 0 "#PWR017" H 1300 1300 50  0001 C CNN
