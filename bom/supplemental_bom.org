@@ -1,0 +1,11 @@
+* Supplemental Bill of Materials
+#+RESULTS: supplemental-parts
+| Item | Quantity | PartNumber   | Vendor  | Description                      |
+|------+----------+--------------+---------+----------------------------------|
+|    1 |        3 | S9286-ND     | digikey | CONN SOCKET IDC 10POS W/KEY GOLD |
+|    2 |        1 | MC10F-100-ND | digikey | CBL RIBN 10COND TWIST-PAIR 100FT |
+|    3 |        3 | 277-2418-ND  | digikey | TERM BLOCK PLUG 4POS STR 3.5MM   |
+|    4 |        3 | 277-5811-ND  | digikey | TERM BLOCK PLUG 4POS 90DEG 3.5MM |
+|    5 |        3 | 609-4042-ND  | digikey | CONN D-SUB HD PLUG 15POS STR     |
+|    6 |        3 | 609-4045-ND  | digikey | CONN D-SUB HD RCPT 15POS STR     |
+|    7 |        3 | 367-1139-ND  | digikey | CONN BACKSHELL DB9 PLASTIC       |

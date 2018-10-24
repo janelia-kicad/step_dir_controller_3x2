@@ -1,0 +1,13 @@
+# Created 2018-10-24 Wed 14:58
+* Bill of Materials
+#+RESULTS: pcb-parts
+| Item | Reference(s)            | Quantity | PartNumber        | Vendor  | Description                               |
+|------+-------------------------+----------+-------------------+---------+-------------------------------------------|
+|    1 | C1 C2 C3 C4 C5 C6 C7 C8 |        8 | 399-13229-1-ND    | digikey | CAP CER 0.1UF 100V X7R 1210               |
+|    2 | CLK1                    |        1 | CTX277LVCT-ND     | digikey | OSC XO 32.000MHZ HCMOS TTL SMD            |
+|    3 | MDB1                    |        2 | S1011E-16-ND      | digikey | 16 Position Header Through Hole Male Pins |
+|    4 | P1 P2 P3                |        3 | S9185-ND          | digikey | CONN_HEADR_2.54MM_10POS_GOLD_SMD          |
+|    5 | T1 T2 T3                |        3 | 277-5738-ND       | digikey | TERM BLOCK HDR 4POS VERT 3.5MM            |
+|    6 | U1                      |        1 | 1460-1071-1-ND    | digikey | IC MOTOR CONTROLLER SPI 32QFN             |
+|    7 | U2 U4 U6                |        3 | 296-1010-1-ND     | digikey | IC QUAD DIFF LINE DRIVER 16-SOIC          |
+|    8 | U3 U5 U7                |        3 | MAX6817EUT+TCT-ND | digikey | IC DEBOUNCER SWITCH DUAL SOT23-6          |

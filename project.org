@@ -1,0 +1,17 @@
+* Header                                                           :noexport:
+
+  #+MACRO: name step_dir_controller_3x2
+  #+MACRO: version 1.0
+  #+MACRO: license Open-Source Hardware
+  #+MACRO: url https://github.com/janelia-kicad/step_dir_controller_3x2
+  #+AUTHOR: Peter Polidoro
+  #+EMAIL: peterpolidoro@gmail.com
+
+* Description
+
+  This device outputs three independent sets of differential step and direction
+  signals to control motion of actuators using step and direction drivers.
+
+* Assembly Instructions
+
+  - Solder surface mount and through hole components onto the pcb.
